@@ -68,6 +68,11 @@ After that follow the instructions to create a Service Account.
 When you click Create Client ID, choose Service Account. You will get a JSON file
 with a public key and the service email.
 
+The created Service Account needs at least the following permissions:
+ -  Manage Production APKs
+ -  Manage Alpha & Beta APKs
+ -  Manage Alpha & Beta users
+
 ## gulp support
 
 The `upload` method returns a `Promise` so this package can be used in conjunction with gulp with no extra plugins needed
