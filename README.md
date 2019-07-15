@@ -1,3 +1,7 @@
+_**This project is no longer maintained and [will stop working](https://github.com/jeduan/playup/issues/37) on December 1, 2019. Please use [apkup](https://www.npmjs.com/package/apkup) instead.**_
+
+<br>
+
 # playup [![Build Status][travis-image]][travis-url] [![Coverage Status][coveralls-image]][coveralls-url] [![npm][npm-image]][npm-url] [![js-standard-style][standard-image]][standard-url]
 
 [travis-image]: https://travis-ci.org/jeduan/playup.svg?branch=master
@@ -12,6 +16,7 @@
  > Upload APKs to Google Play
 
 This package offers a streamlined way to publish packages in the Google Play Store
+
 
 ## Install
 
