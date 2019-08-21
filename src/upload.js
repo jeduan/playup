@@ -201,4 +201,4 @@ export default class Upload {
   }
 }
 
-Upload.tracks = ['alpha', 'beta', 'production', 'rollout']
+Upload.tracks = ['internal', 'alpha', 'beta', 'production', 'rollout']
