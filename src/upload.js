@@ -3,6 +3,7 @@ import Debug from 'debug'
 import apkParser from 'node-apk-parser'
 import {androidpublisher} from 'googleapis'
 import assert from 'assert'
+import DonwloadIndicator from './downloadIndicator'
 
 var debug = Debug('playup')
 var publisher = androidpublisher('v2')
@@ -84,7 +85,7 @@ export default class Upload {
     const that = this
     const uploads = this.apk.map(function (apk) {
       return new Promise((done, rejectApk) => {
-        publisher.edits.apks.upload({
+        let req = publisher.edits.apks.upload({
           packageName: that.packageName,
           editId: that.editId,
           auth: that.client,
@@ -98,6 +99,7 @@ export default class Upload {
           versionCodes.push(upload.versionCode)
           done()
         })
+        new DonwloadIndicator(apk,req)
       })
     })
     return Promise.all(uploads)

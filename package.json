@@ -37,6 +37,7 @@
     "googleapis": "^2.0.2",
     "node-apk-parser": "^0.2.3",
     "nodeify": "^1.0.0",
+    "pace": "0.0.4",
     "yargs": "^3.7.2"
   },
   "devDependencies": {
