@@ -82,31 +82,31 @@ gulp.task(upload, function () {
 
 ### playup --auth auth --recent-changes "recent changes" APK [[OBB], OBB]
 
-  #### auth
+#### auth
 
-  *Required*
-  Type: `File`
+*Required*
+Type: `File`
 
-  a JSON file with the [Authentication information](#authentication)
+a JSON file with the [Authentication information](#authentication)
 
-  #### recent-changes
-  *Required*
-  Type: `string`
+#### recent-changes
+*Required*
+Type: `string`
 
-  A string with the format `lang=changes` where lang is the language code and changes the string that specifies the changes of this
+A string with the format `lang=changes` where lang is the language code and changes the string that specifies the changes of this
 
- #### track
- Type: `string`
+#### track
+Type: `string`
 
- Specify track for this release. Can be alpha, beta, production or rollout. Default: alpha
+Specify track for this release. Can be alpha, beta, production or rollout. Default: alpha
 
- #### APK
+#### APK
 
- The path to the APK
+The path to the APK
 
- #### OBB
+#### OBB
 
- The path to 1 or more expansion files
+The path to 1 or more expansion files
 
 ## API
 
