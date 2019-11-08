@@ -15,7 +15,7 @@ var argv = require('yargs')
   })
   .option('r', {
     alias: 'recent-changes',
-    type: 'array'
+    type: 'string'
   })
   .help('h')
   .argv
