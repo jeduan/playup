@@ -34,7 +34,7 @@
   "homepage": "https://github.com/jeduan/google-play-publisher",
   "dependencies": {
     "debug": "^2.1.3",
-    "googleapis": "^2.0.2",
+    "googleapis": "^59.0.0",
     "node-apk-parser": "^0.2.3",
     "nodeify": "^1.0.0",
     "yargs": "^3.7.2"
